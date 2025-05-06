@@ -34,7 +34,7 @@ Flask-Cors==3.0.9
 ftfy==5.8
 gast==0.3.2
 gensim==3.8.1
-gevent==20.9.0
+gevent==25.4.1
 globre==0.1.5
 gpustat==0.6.0
 graphviz==0.8.4
@@ -136,7 +136,7 @@ torchvision==0.4.2
 tornado==6.0.3
 tqdm==4.41.0
 traitlets==4.3.3
-transformers==3.0.0
+transformers==4.50.0
 truecase==0.0.11
 Unidecode==1.1.1
 urllib3==1.25.10
@@ -148,3 +148,4 @@ wrapt==1.11.2
 zipp==3.1.0
 zope.event==4.5.0
 zope.interface==5.2.0
+setuptools>=78.1.1 # not directly required, pinned by Snyk to avoid a vulnerability
