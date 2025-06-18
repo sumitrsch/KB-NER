@@ -19,7 +19,7 @@ pytest==6.1.2
 pytorch-transformers==1.1.0
 pyyaml==5.2
 regex==2019.12.20
-requests==2.22.0
+requests==2.32.4
 scipy==1.4.1
 segtok==1.5.7
 sklearn==0.0
@@ -30,3 +30,5 @@ tqdm==4.41.0
 transformers==3.0.0
 wikipedia2vec==1.0.5
 nltk==7.1.2
+flask-cors>=6.0.0 # not directly required, pinned by Snyk to avoid a vulnerability
+protobuf>=4.25.8 # not directly required, pinned by Snyk to avoid a vulnerability
