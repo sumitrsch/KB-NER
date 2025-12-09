@@ -30,3 +30,5 @@ tqdm==4.41.0
 transformers==3.0.0
 wikipedia2vec==1.0.5
 nltk==7.1.2
+sqlparse>=0.5.4 # not directly required, pinned by Snyk to avoid a vulnerability
+urllib3>=2.6.0 # not directly required, pinned by Snyk to avoid a vulnerability
