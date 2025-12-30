@@ -136,7 +136,7 @@ torchvision==0.4.2
 tornado==6.0.3
 tqdm==4.41.0
 traitlets==4.3.3
-transformers==3.0.0
+transformers==5.0.0rc1
 truecase==0.0.11
 Unidecode==1.1.1
 urllib3==1.25.10
